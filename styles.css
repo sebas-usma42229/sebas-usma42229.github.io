@@ -17,20 +17,17 @@ body, html {
     padding: 1in; /* Margen interno de 1 pulgada */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -1rem; /* Para contrarrestar el padding de las columnas */
 }
 
-/* Opcional: Estilos para impresión */
-@media print {
-    body, html {
-        background: none;
-        margin: 0;
-        padding: 0;
-        height: auto;
-    }
-    .page {
-        box-shadow: none;
-        border: none;
-        margin: 0;
-        padding: 0;
-    }
+.column {
+    flex: 1;
+    padding: 1rem;
+    box-sizing: border-box; /* Incluye el padding en el tamaño total */
 }
