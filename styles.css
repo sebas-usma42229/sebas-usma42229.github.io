@@ -1,4 +1,4 @@
-/* Estilos globales */
+
 body, html {
     margin: 0;
     padding: 0;
@@ -11,10 +11,10 @@ body, html {
 
 /* Estilo para la página */
 .page {
-    width: 8.5in;  /* Ancho de una página carta */
-    height: 11in;  /* Alto de una página carta */
+    width: 8.5in;  /* Ancho  página */
+    height: 11in;  /* Alto  página  */
     background-color: #ffffff;
-    padding: 1in; /* Margen interno de 1 pulgada */
+    padding: 1in; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border: 1px solid #ddd;
     display: flex;
