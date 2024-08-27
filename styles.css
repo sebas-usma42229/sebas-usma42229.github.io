@@ -9,39 +9,38 @@ body,html {
     
 }
 
-/* Estilo para la página */
+
 .page {
     width: 8.5in;  /* Ancho  página */
     height: 11in;  /* Alto  página  */
-    /*background-color: #ffffff;*/
     padding: 1in; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border: 1px solid #ddd;
     display: flex;
     flex-direction: column;
-    background-image: url('/fondo.jpg'); /* Ruta de la imagen */
-    background-size: cover;       /* Asegura que la imagen cubra todo el contenedor */
-    background-position: center;  /* Centra la imagen en el contenedor */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-image: url('/fondo.jpg'); 
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat; 
    
 }
 .row {
     display: flex;
     flex-wrap: wrap;
-    /*margin: 2rem; /* Para contrarrestar el padding de las columnas */
+   
 }
 
 .column {
     flex: 1;
     padding: 1rem;
-    box-sizing: border-box; /* Incluye el padding en el tamaño total */
+    box-sizing: border-box; 
 }
 
 .foto_perfil {
-    width: 300px;         /* Establece el ancho deseado */
-    height: 300px;        /* Establece el alto deseado (debe ser igual al ancho para un círculo perfecto) */
-    border-radius: 50%;  /* Hace que la imagen sea redonda */
-    object-fit: cover;    /* Ajusta la imagen para cubrir el contenedor sin deformarse */
+    width: 300px;        
+    height: 300px;        
+    border-radius: 50%;  
+    object-fit: cover;   
     border: 1px solid #1c4d75;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 
