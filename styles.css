@@ -23,7 +23,7 @@ body, html {
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin: -1rem; /* Para contrarrestar el padding de las columnas */
+    /*margin: 2rem; /* Para contrarrestar el padding de las columnas */
 }
 
 .column {
@@ -31,3 +31,19 @@ body, html {
     padding: 1rem;
     box-sizing: border-box; /* Incluye el padding en el tamaño total */
 }
+
+.foto_perfil {
+    width: 300px;         /* Establece el ancho deseado */
+    height: 300px;        /* Establece el alto deseado (debe ser igual al ancho para un círculo perfecto) */
+    border-radius: 50%;  /* Hace que la imagen sea redonda */
+    object-fit: cover;    /* Ajusta la imagen para cubrir el contenedor sin deformarse */
+    border: 1px solid #06e0fc;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+
+
+    
+    
+
+}
+
