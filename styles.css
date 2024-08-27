@@ -1,0 +1,36 @@
+/* Estilos globales */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+/* Estilo para la página */
+.page {
+    width: 8.5in;  /* Ancho de una página carta */
+    height: 11in;  /* Alto de una página carta */
+    background-color: #ffffff;
+    padding: 1in; /* Margen interno de 1 pulgada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+/* Opcional: Estilos para impresión */
+@media print {
+    body, html {
+        background: none;
+        margin: 0;
+        padding: 0;
+        height: auto;
+    }
+    .page {
+        box-shadow: none;
+        border: none;
+        margin: 0;
+        padding: 0;
+    }
+}
